@@ -7553,7 +7553,7 @@ h1, h2, h3, h4, h5,
         bottom: 0;
         content: '';
         background: #000;
-        opacity: .2; }
+        opacity: .5; }
       .owl-carousel.home-slider .slider-item .slider-text {
         color: #fff;
         height: 700px; }
