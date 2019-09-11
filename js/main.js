@@ -39,6 +39,9 @@
 	};
 	loader();
 
+	// modalPopup
+	$('#modalPopup').modal('show');
+
 	// Scrollax
    $.Scrollax();
 
