@@ -283,7 +283,12 @@
 	  'format': 'm/d/yyyy',
 	  'autoclose': true
 	});
-	$('.appointment_time').timepicker();
+	$('.appointment_time').timepicker({
+		minTime: '9:30',
+		startTime: '9:30',
+		maxTime: '18:00',
+		interval: '30'
+	});
 
 
 
