@@ -7,12 +7,10 @@
 
       <div class="collapse navbar-collapse" id="ftco-nav">
         <ul class="navbar-nav ml-auto">
-          <li class="nav-item"><a href="#home" class="nav-link">Home</a></li>
-          <li class="nav-item"><a href="#services" class="nav-link">Services</a></li>
-          <li class="nav-item"><a href="#testimony" class="nav-link">Testimony</a></li>
-          <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
-          <li class="nav-item"><a href="#gallery" class="nav-link"> Gallery</a></li>
-          <li class="nav-item cta"><a href="#" class="nav-link" data-toggle="modal" data-target="#modalRequest"><span>Get Free Consultation</span></a></li>
+          {% for nav in site.data.navigation[page.lang] %}
+          <li class="nav-item"><a href="{{nav.url}}" class="nav-link">{{nav.name}}</a></li>
+          {% endfor %}
+          <li class="nav-item cta"><a href="#" class="nav-link" data-toggle="modal" data-target="#modalRequest"><span>{{site.data.text[page.lang].nav_button}}</span></a></li>
         </ul>
       </div>
     </div>

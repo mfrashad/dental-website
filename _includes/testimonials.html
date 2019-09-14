@@ -2,55 +2,29 @@
     <div class="container">
       <div class="row justify-content-center mb-5 pb-3">
         <div class="col-md-7 text-center heading-section ftco-animate">
-          <h2 class="mb-2">Testimony</h2>
-          <span class="subheading">Our Happy Customer Says</span>
+          <h2 class="mb-2">{{site.data.text[page.lang].testimony_title}}</h2>
+          <span class="subheading">{{site.data.text[page.lang].testimony_desc}}</span>
         </div>
       </div>
       <div class="row justify-content-center ftco-animate">
         <div class="col-md-8">
           <div class="carousel-testimony owl-carousel ftco-owl">
+            {% for testimonial in site.data.testimonials[page.lang] %}
             <div class="item">
               <div class="testimony-wrap p-4 pb-5">
-                <div class="user-img mb-5" style="background-image: url(images/person_2.jpg)">
+                <div class="user-img mb-5" style="background-image: url('{{testimonial.image}}')">
                   <span class="quote d-flex align-items-center justify-content-center">
                     <i class="icon-quote-left"></i>
                   </span>
                 </div>
                 <div class="text text-center">
-                  <p class="mb-5">Best clinic to get your braces on. The dentist is an expert in orthodontic, very friendly and patient. The price also affordable.</p>
-                  <p class="name">Unknown</p>
-                  <span class="position">Customer</span>
+                  <p class="mb-5">{{testimonial.text}}</p>
+                  <p class="name">{{testimonial.name}}</p>
+                  <span class="position">{{testimonial.position}}</span>
                 </div>
               </div>
             </div>
-            <div class="item">
-              <div class="testimony-wrap p-4 pb-5">
-                <div class="user-img mb-5" style="background-image: url(images/person_3.jpg)">
-                  <span class="quote d-flex align-items-center justify-content-center">
-                    <i class="icon-quote-left"></i>
-                  </span>
-                </div>
-                <div class="text text-center">
-                  <p class="mb-5">Brought my 7yr old girl for her 1st visit to dentist. Pleasant experience and doctor is kid friendly.</p>
-                  <p class="name">Gigie W</p>
-                  <span class="position">Customer</span>
-                </div>
-              </div>
-            </div>
-            <div class="item">
-              <div class="testimony-wrap p-4 pb-5">
-                <div class="user-img mb-5" style="background-image: url(images/person_1.jpg)">
-                  <span class="quote d-flex align-items-center justify-content-center">
-                    <i class="icon-quote-left"></i>
-                  </span>
-                </div>
-                <div class="text text-center">
-                  <p class="mb-5">Good service and responsible price.</p>
-                  <p class="name">Omar Khamam</p>
-                  <span class="position">Local Guide</span>
-                </div>
-              </div>
-            </div>
+            {% endfor %}
           </div>
         </div>
       </div>

@@ -1,24 +1,50 @@
-- name: Orthodontic Treatment
-  description: Teeth are not straight? Get your braces and have a perfect smile.
-  icon: flaticon-tooth-with-braces
-- name: Teeth Whitening
-  description: Have yellow teeth? Get a brighter and healthier smile you've been wanting.
-  icon: flaticon-tooth-1
-- name: Teeth Cleaning
-  description: Clean your teeth now with affordable price.
-  icon: flaticon-bacteria
-- name: Tooth Extraction
-  description: Have a loose tooth? Extract your tooth with our clinic.
-  icon: flaticon-dental-care
-- name: Dental Surgery
-  description: Any dental surgery you need at your service.
-  icon: flaticon-dentist
-- name: Dental Fillings
-  description: Have yellow teeth? Get a brighter and healthier smile you've been wanting.
-  icon: flaticon-tooth
-- name: Root Canal
-  description: Treat your root canal affordably and painlessly.
-  icon: flaticon-dental-care-1
-- name: Dentures
-  description: Have missing tooth? Replace it with our dentures!
-  icon: flaticon-dental-care
+en:
+  - name: Orthodontic Treatment
+    description: Teeth are not straight? Get your braces and have a perfect smile.
+    icon: flaticon-tooth-with-braces
+  - name: Teeth Whitening
+    description: Have yellow teeth? Get a brighter and healthier smile you've been wanting.
+    icon: flaticon-tooth-1
+  - name: Teeth Cleaning
+    description: Clean your teeth now at an affordable price.
+    icon: flaticon-bacteria
+  - name: Tooth Extraction
+    description: Have a loose tooth? Extract your tooth with our clinic.
+    icon: flaticon-dental-care
+  - name: Dental Surgery
+    description: Any dental surgery you need at your service.
+    icon: flaticon-dentist
+  - name: Dental Fillings
+    description: Have tooth cavities? Repair your cracked or broken teeth at our clinic today!
+    icon: flaticon-tooth
+  - name: Root Canal
+    description: Have a tooth ache? Come and let us examine your inflamed or infected tooth expertly.
+    icon: flaticon-dental-care-1
+  - name: Dentures
+    description: Have missing tooth? Replace it with our dentures!
+    icon: flaticon-dental-care
+my:
+  - name: Rawatan ortodontik
+    description: Gigi tidak lurus? Dapatkan pendakap anda dan senyuman yang sempurna.
+    icon: flaticon-tooth-with-braces
+  - name: Gigi Pemutihan
+    description: Ada gigi kuning? Dapatkan senyuman yang lebih cerah dan sihat yang anda mahu.
+    icon: flaticon-tooth-1
+  - name: Pembersihan Gigi
+    description: Bersihkan gigi anda dengan harga yang berpatutan.
+    icon: flaticon-bacteria
+  - name: Ekstrak Gigi
+    description: Ada gigi longgar? Ekstrak gigi anda dengan klinik kami.
+    icon: flaticon-dental-care
+  - name: Pembedahan Pergigian
+    description: Mana-mana pembedahan pergigian yang anda perlukan di perkhidmatan anda.
+    icon: flaticon-dentist
+  - name: Pengisian Gigi
+    description: Adakah rongga gigi? Membaiki gigi retak atau pecah di klinik kami hari ini!
+    icon: flaticon-tooth
+  - name: Root Canal
+    description: Rawat kanal akar anda dengan murah dan tanpa rasa sakit.
+    icon: flaticon-dental-care-1
+  - name: Gigi palsu
+    description: Telah hilang gigi? Gantikan dengan gigi palsu kami!
+    icon: flaticon-dental-care

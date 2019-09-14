@@ -1,0 +1,56 @@
+en:
+  nav_button: Get Free Consultation
+  intro_contact: Contact Us
+  intro_open: Opening Hours
+  intro_ad1: Orthodontic Treatment
+  intro_ad2: Get It Straight
+  intro_ad3: Do your braces now!
+  service_title: Our Service Keeps you Smile
+  service_desc: We offers various dental services.
+  feature_title: Dental care with a personal touch
+  testimony_title: Testimony
+  testimony_desc: Our Happy Customer Says
+  contact_title: Contact Information
+  contact_form_name: Your Name
+  contact_form_email: Your email
+  contact_form_subject: Subject
+  contact_form_message: Message
+  contact_form_button: Send Message
+  app_form_title: Make an Appointment
+  app_form_name: Full Name
+  app_form_email: Email
+  app_form_date: Date
+  app_form_time: Time
+  app_form_message: Message
+  app_form_button: Make an Appointment
+  popup_text: Consultation on existing braces is available
+  popup_button: Do your braces now!
+  popup_lang: Tukar ke Bahasa Melayu?
+my:
+  nav_button: Dapatkan Perundingan Percuma
+  intro_contact: Hubungi Kami
+  intro_open: Waktu buka
+  intro_ad1: Rawatan Ortodontik
+  intro_ad2: Luruskan Gigi Anda!
+  intro_ad3: Dapatkan pendakap anda sekarang!
+  service_title: Perkhidmatan kami menjaga senyuman anda
+  service_desc: Kami menawarkan pelbagai perkhidmatan pergigian.
+  feature_title: Penjagaan gigi dengan sentuhan peribadi
+  testimony_title: Kesaksian
+  testimony_desc: Pelanggan Puas kami
+  contact_title: Maklumat perhubungan
+  contact_form_name: Nama Anda
+  contact_form_email: Email Anda
+  contact_form_subject: Subjek
+  contact_form_message: Mesej
+  contact_form_button: Hantar Mesej
+  app_form_title: Buat Temujanji
+  app_form_name: Nama Penuh
+  app_form_email: Email
+  app_form_date: Tarikh
+  app_form_time: Waktu
+  app_form_message: Mesej
+  app_form_button: Buat Temujanji
+  popup_text: Rundingan mengenai pendakap sedia ada boleh didapati
+  popup_button: Buat pendakap anda sekarang!
+  popup_lang: Change to English?

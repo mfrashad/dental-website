@@ -1,0 +1,22 @@
+en:
+  - name: Home
+    url:  '#home'
+  - name: Services
+    url: '#services'
+  - name: Testimony
+    url: '#testimony'
+  - name: Contact
+    url: '#contact'
+  - name: Gallery
+    url: '#gallery'
+my:
+  - name: Rumah
+    url:  '#home'
+  - name: Perkhidmatan
+    url: '#services'
+  - name: Kesaksian
+    url: '#testimony'
+  - name: Hubungi
+    url: '#contact'
+  - name: Galeri
+    url: '#gallery'

@@ -1,0 +1,26 @@
+en:
+  - name: Unknown
+    position: Customer
+    image: /images/person_1.jpg
+    text: Best clinic to get your braces on. The dentist is an expert in orthodontic, very friendly and patient. The price also affordable.
+  - name: Gigie W
+    position: Customer
+    image: /images/person_2.jpg
+    text: Brought my 7yr old girl for her 1st visit to dentist. Pleasant experience and doctor is kid friendly.
+  - name: Omar Khamam
+    position: Local Guide
+    image: /images/person_3.jpg
+    text: Good service and responsible price.
+my:
+  - name: Tidak Diketahui
+    position: Pelanggan
+    image: /images/person_1.jpg
+    text: Klinik terbaik untuk mendapatkan pendakap anda. Doktor gigi adalah pakar dalam ortodontik, sangat mesra dan sabar. Harga juga berpatutan.
+  - name: Gigie W
+    position: Pelanggan
+    image: /images/person_2.jpg
+    text: Membawa gadis berusia 7 tahun saya untuk lawatan pertama ke doktor gigi. Pengalaman yang menyenangkan dan doktor adalah mesra kanak-kanak.
+  - name: Omar Khamam
+    position: Panduan Tempatan
+    image: /images/person_3.jpg
+    text: Perkhidmatan yang baik dan harga yang bertanggungjawab.
